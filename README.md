@@ -2,12 +2,22 @@
 Bunch of code I made while trying to learn Java
 
 ## Used-Materials
-Video(currently on 4th hour out fo 12) [https://youtu.be/xTtL8E4LzTQ?si=0ku43a4HC7b1Kx8T](url)\n
-Book in a pdf format [https://www.iitk.ac.in/esc101/share/downloads/javanotes5.pdf](url)\n
-W3Schools guides [https://www.w3schools.com/java/](url)\n
-\n
-IntelliJ IDEA Community Edition 2025 [https://www.jetbrains.com/idea/download/](url)\n
-Java SDK - 21 Oracle OpenJDK 21.0.7 [https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html](url)\n
+Video(currently on 4th hour out fo 12) 
+[https://youtu.be/xTtL8E4LzTQ?si=0ku43a4HC7b1Kx8T](url)
+
+Book in a pdf format 
+[https://www.iitk.ac.in/esc101/share/downloads/javanotes5.pdf](url)
+
+W3Schools guides 
+[https://www.w3schools.com/java/](url)
+
+
+IntelliJ IDEA Community Edition 2025 
+[https://www.jetbrains.com/idea/download/](url)
+Java SDK - 21 Oracle OpenJDK 21.0.7
+[https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html](url)
+
+##Code
 
 ```java
 public class 〈program-name 〉 {

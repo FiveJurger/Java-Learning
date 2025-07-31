@@ -14,10 +14,11 @@ W3Schools guides
 
 IntelliJ IDEA Community Edition 2025 
 [https://www.jetbrains.com/idea/download/](url)
+
 Java SDK - 21 Oracle OpenJDK 21.0.7
 [https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html](url)
 
-##Code
+## Code
 
 ```java
 public class 〈program-name 〉 {

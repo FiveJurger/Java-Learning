@@ -21,6 +21,7 @@ Java SDK - 21 Oracle OpenJDK 21.0.7
 ## Code
 
 ```java
+/*
 public class 〈program-name 〉 {
 〈optional-variable-declarations-and-subroutines〉
 public static void main(String[] args) {
@@ -28,6 +29,7 @@ public static void main(String[] args) {
 }
 〈optional-variable-declarations-and-subroutines〉
 }
+*/
 ```
 
 

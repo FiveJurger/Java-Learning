@@ -2,7 +2,7 @@
 Bunch of code I made while trying to learn Java
 
 ## Used-Materials
-Video(currently on 4th hour out fo 12) 
+Video(currently on 4th hour out of 12) 
 [https://youtu.be/xTtL8E4LzTQ?si=0ku43a4HC7b1Kx8T](url)
 
 Book in a pdf format 

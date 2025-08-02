@@ -2,7 +2,7 @@
 Bunch of code I made while trying to learn Java
 
 ## Used-Materials
-Video(currently on 4th hour out of 12) 
+Video(currently on 5th hour out of 12) 
 [https://youtu.be/xTtL8E4LzTQ?si=0ku43a4HC7b1Kx8T](url)
 
 Book in a pdf format 
@@ -456,6 +456,91 @@ public class Main {
         System.out.println("Happy New Year!");
 
         input.close();
+    }
+}
+```
+
+
+```java
+import java.util.Scanner;
+
+public class Main {
+
+    static Scanner input = new Scanner(System.in);
+
+    public static void main(String[] args) {
+
+        // BANKING PROGRAMME
+
+        double balance = 0;
+        boolean isRunning = true;
+        int choice;
+
+        while(isRunning){
+            System.out.println("*****************");
+            System.out.println("BANKING PROGRAMME");
+            System.out.println("*****************");
+            System.out.println("1. Show balance");
+            System.out.println("2. Deposit");
+            System.out.println("3. Withdraw");
+            System.out.println("4. Exit");
+            System.out.println("*****************");
+
+            System.out.print("\nEnter your choice (1-4): ");
+            choice = input.nextInt();
+
+            switch(choice){
+                case 1 -> showBalance(balance);
+                case 2 -> balance += deposit();
+                case 3 -> balance -= withdraw(balance);
+                case 4 -> isRunning = false;
+                default -> System.out.println("INVALID CHOICE");
+            }
+        }
+        input.close();
+    }
+    static void showBalance(double balance){
+        System.out.println("*****************");
+        System.out.printf("Your balance is: €%.2f\n", balance);
+    }
+    static double deposit(){
+
+        double amount;
+
+        System.out.println("*****************");
+        System.out.print("Enter an amount to be deposited: ");
+        amount = input.nextDouble();
+
+        if(amount < 0){
+            System.out.println("*****************");
+            System.out.println("Amount can't be negative!");
+            return 0;
+        }
+        else{
+            return amount;
+        }
+    }
+    static double withdraw(double balance){
+
+        double amount;
+
+        System.out.println("*****************");
+        System.out.print("Enter an amount to be withdraw: ");
+        amount = input.nextDouble();
+
+        if(amount > balance){
+            System.out.println("*****************");
+            System.out.println("INSUFFICIENT FUNDS");
+            return 0;
+        }
+        else if (amount < 0) {
+            System.out.println("*****************");
+            System.out.println("Amount can't be negative!");
+            return 0;
+        }
+        else {
+            return amount;
+        }
     }
 }
 ```
